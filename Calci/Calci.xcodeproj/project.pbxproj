@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE4E9BD7250BC2A8005C8E1C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E9BD6250BC2A8005C8E1C /* String+Extension.swift */; };
 		FEBB2549250A73FD006FD923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB2548250A73FD006FD923 /* AppDelegate.swift */; };
 		FEBB254B250A73FD006FD923 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB254A250A73FD006FD923 /* SceneDelegate.swift */; };
 		FEBB254D250A73FD006FD923 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB254C250A73FD006FD923 /* ViewController.swift */; };
@@ -14,6 +15,18 @@
 		FEBB2552250A73FF006FD923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBB2551250A73FF006FD923 /* Assets.xcassets */; };
 		FEBB2555250A73FF006FD923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBB2553250A73FF006FD923 /* LaunchScreen.storyboard */; };
 		FEBB2560250A73FF006FD923 /* CalciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB255F250A73FF006FD923 /* CalciTests.swift */; };
+		FEBB256C250A768D006FD923 /* CalciLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB256B250A768D006FD923 /* CalciLibrary.swift */; };
+		FEBB256F250A76E3006FD923 /* Addable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB256E250A76E3006FD923 /* Addable.swift */; };
+		FEBB2571250A7733006FD923 /* Subtractable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB2570250A7733006FD923 /* Subtractable.swift */; };
+		FEBB2573250A77BE006FD923 /* Multipliable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB2572250A77BE006FD923 /* Multipliable.swift */; };
+		FEBB2575250A780E006FD923 /* Divisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB2574250A780E006FD923 /* Divisible.swift */; };
+		FEBB2577250A7852006FD923 /* Calculatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB2576250A7852006FD923 /* Calculatable.swift */; };
+		FEBB2579250A804E006FD923 /* Sineable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB2578250A804E006FD923 /* Sineable.swift */; };
+		FEBB257B250A80B2006FD923 /* Cosineable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB257A250A80B2006FD923 /* Cosineable.swift */; };
+		FEBB257D250A80EB006FD923 /* Tangentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB257C250A80EB006FD923 /* Tangentable.swift */; };
+		FEBB257F250A8132006FD923 /* Secantable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB257E250A8132006FD923 /* Secantable.swift */; };
+		FEBB2581250A816D006FD923 /* Cosecantable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB2580250A816D006FD923 /* Cosecantable.swift */; };
+		FEBB2583250A81D5006FD923 /* Cotangentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB2582250A81D5006FD923 /* Cotangentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE4E9BD6250BC2A8005C8E1C /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		FEBB2545250A73FD006FD923 /* Calci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calci.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBB2548250A73FD006FD923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEBB254A250A73FD006FD923 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +52,18 @@
 		FEBB255B250A73FF006FD923 /* CalciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBB255F250A73FF006FD923 /* CalciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalciTests.swift; sourceTree = "<group>"; };
 		FEBB2561250A73FF006FD923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBB256B250A768D006FD923 /* CalciLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalciLibrary.swift; sourceTree = "<group>"; };
+		FEBB256E250A76E3006FD923 /* Addable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addable.swift; sourceTree = "<group>"; };
+		FEBB2570250A7733006FD923 /* Subtractable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtractable.swift; sourceTree = "<group>"; };
+		FEBB2572250A77BE006FD923 /* Multipliable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multipliable.swift; sourceTree = "<group>"; };
+		FEBB2574250A780E006FD923 /* Divisible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divisible.swift; sourceTree = "<group>"; };
+		FEBB2576250A7852006FD923 /* Calculatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculatable.swift; sourceTree = "<group>"; };
+		FEBB2578250A804E006FD923 /* Sineable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sineable.swift; sourceTree = "<group>"; };
+		FEBB257A250A80B2006FD923 /* Cosineable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cosineable.swift; sourceTree = "<group>"; };
+		FEBB257C250A80EB006FD923 /* Tangentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tangentable.swift; sourceTree = "<group>"; };
+		FEBB257E250A8132006FD923 /* Secantable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secantable.swift; sourceTree = "<group>"; };
+		FEBB2580250A816D006FD923 /* Cosecantable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cosecantable.swift; sourceTree = "<group>"; };
+		FEBB2582250A81D5006FD923 /* Cotangentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cotangentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE4E9BD5250BC259005C8E1C /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FE4E9BD6250BC2A8005C8E1C /* String+Extension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
 		FEBB253C250A73FD006FD923 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +116,7 @@
 				FEBB2548250A73FD006FD923 /* AppDelegate.swift */,
 				FEBB254A250A73FD006FD923 /* SceneDelegate.swift */,
 				FEBB254C250A73FD006FD923 /* ViewController.swift */,
+				FEBB256A250A7666006FD923 /* CalciLibrary */,
 				FEBB254E250A73FD006FD923 /* Main.storyboard */,
 				FEBB2551250A73FF006FD923 /* Assets.xcassets */,
 				FEBB2553250A73FF006FD923 /* LaunchScreen.storyboard */,
@@ -97,6 +132,34 @@
 				FEBB2561250A73FF006FD923 /* Info.plist */,
 			);
 			path = CalciTests;
+			sourceTree = "<group>";
+		};
+		FEBB256A250A7666006FD923 /* CalciLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				FEBB256B250A768D006FD923 /* CalciLibrary.swift */,
+				FE4E9BD5250BC259005C8E1C /* extensions */,
+				FEBB256D250A76C4006FD923 /* protocols */,
+			);
+			path = CalciLibrary;
+			sourceTree = "<group>";
+		};
+		FEBB256D250A76C4006FD923 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FEBB2576250A7852006FD923 /* Calculatable.swift */,
+				FEBB256E250A76E3006FD923 /* Addable.swift */,
+				FEBB2570250A7733006FD923 /* Subtractable.swift */,
+				FEBB2572250A77BE006FD923 /* Multipliable.swift */,
+				FEBB2574250A780E006FD923 /* Divisible.swift */,
+				FEBB2578250A804E006FD923 /* Sineable.swift */,
+				FEBB257A250A80B2006FD923 /* Cosineable.swift */,
+				FEBB257C250A80EB006FD923 /* Tangentable.swift */,
+				FEBB257E250A8132006FD923 /* Secantable.swift */,
+				FEBB2580250A816D006FD923 /* Cosecantable.swift */,
+				FEBB2582250A81D5006FD923 /* Cotangentable.swift */,
+			);
+			path = protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +263,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEBB2583250A81D5006FD923 /* Cotangentable.swift in Sources */,
+				FEBB2579250A804E006FD923 /* Sineable.swift in Sources */,
+				FEBB2577250A7852006FD923 /* Calculatable.swift in Sources */,
 				FEBB254D250A73FD006FD923 /* ViewController.swift in Sources */,
+				FE4E9BD7250BC2A8005C8E1C /* String+Extension.swift in Sources */,
+				FEBB2573250A77BE006FD923 /* Multipliable.swift in Sources */,
 				FEBB2549250A73FD006FD923 /* AppDelegate.swift in Sources */,
+				FEBB257D250A80EB006FD923 /* Tangentable.swift in Sources */,
+				FEBB256F250A76E3006FD923 /* Addable.swift in Sources */,
+				FEBB2581250A816D006FD923 /* Cosecantable.swift in Sources */,
+				FEBB256C250A768D006FD923 /* CalciLibrary.swift in Sources */,
+				FEBB257F250A8132006FD923 /* Secantable.swift in Sources */,
+				FEBB257B250A80B2006FD923 /* Cosineable.swift in Sources */,
+				FEBB2575250A780E006FD923 /* Divisible.swift in Sources */,
 				FEBB254B250A73FD006FD923 /* SceneDelegate.swift in Sources */,
+				FEBB2571250A7733006FD923 /* Subtractable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
